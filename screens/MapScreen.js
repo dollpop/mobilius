@@ -5,6 +5,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 
 const Tab = createMaterialBottomTabNavigator();
 
+
 function MapScreen() {
     return(
       <Tab.Navigator shifting={true}>
