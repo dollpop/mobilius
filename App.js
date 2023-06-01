@@ -44,6 +44,7 @@ export default function App() {
               : TransitionPresets.ModalSlideFromBottomIOS)
               // ↑ Map 루트에는 슬라이드 효과를, Login 루트에는 모달 효과로 설정
             })}
+            
             >
               <Stack.Screen name = "Home1" component = {HomeScreen} 
               options = {{headerShown: false}} />
