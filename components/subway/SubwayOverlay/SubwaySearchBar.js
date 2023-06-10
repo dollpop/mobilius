@@ -80,48 +80,78 @@ function SubwaySearchBar({
 
   const renderItem = ({ item }) => {
 
-      if((item.subwayLine) == "1호선") {
-        item.iconname = "numeric-1-circle";
-        item.iconcolor="#0052A4"
-      }
-      else if((item.subwayLine) == "2호선") {
-        item.iconname = "numeric-2-circle";
-        item.iconcolor="#00A84D"
-      }
-      else if((item.subwayLine) == "3호선") {
-        item.iconname = "numeric-3-circle";
-        item.iconcolor="#EF7C1C"
-      }
+    if((item.subwayLine) == "1호선") {
+      item.iconname = "numeric-1-circle";
+      item.iconcolor="#0052A4"    //군청색
+    }
+    else if((item.subwayLine) == "2호선") {
+      item.iconname = "numeric-2-circle";
+      item.iconcolor="#00A84D"    //초록색
+    }
+    else if((item.subwayLine) == "3호선") {
+      item.iconname = "numeric-3-circle";
+      item.iconcolor="#EF7C1C"    //주황색
+    }
 
-      else if((item.subwayLine) == "4호선") {
-        item.iconname = "numeric-4-circle";
-        item.iconcolor="#00A4E3"
-      }
+    else if((item.subwayLine) == "4호선") {
+      item.iconname = "numeric-4-circle";
+      item.iconcolor="#00A4E3"    //하늘색
+    }
 
-      else if((item.subwayLine) == "5호선") {
-        item.iconname = "numeric-5-circle";
-        item.iconcolor="#996CAC"
-      }
+    else if((item.subwayLine) == "5호선") {
+      item.iconname = "numeric-5-circle";
+      item.iconcolor="#996CAC"    //보라색
+    }
 
-      else if((item.subwayLine) == "6호선") {
-        item.iconname = "numeric-6-circle";
-        item.iconcolor="#CD7C2F"
-      }
+    else if((item.subwayLine) == "6호선") {
+      item.iconname = "numeric-6-circle";
+      item.iconcolor="#CD7C2F"    //황토색
+    }
 
-      else if((item.subwayLine) == "7호선") {
-        item.iconname = "numeric-7-circle";
-        item.iconcolor="#747F00"
-      }
+    else if((item.subwayLine) == "7호선") {
+      item.iconname = "numeric-7-circle";
+      item.iconcolor="#747F00"    //올리브색
+    }
 
-      else if((item.subwayLine) == "8호선") {
-        item.iconname = "numeric-8-circle";
-        item.iconcolor="#E6186C"
-      }
+    else if((item.subwayLine) == "8호선") {
+      item.iconname = "numeric-8-circle";
+      item.iconcolor="#E6186C"    //분홍색
+    }
 
-      else if((item.subwayLine) == "9호선") {
-        item.iconname = "numeric-9-circle";
-        item.iconcolor="#BDB092"
-      }
+    else if((item.subwayLine) == "9호선") {
+      item.iconname = "numeric-9-circle";
+      item.iconcolor="#BDB092"    //금색
+    }
+
+    else if((item.subwayLine) == "경의중앙") {
+      item.iconname = "subway";
+      item.iconcolor="#77C4A3"    //옥색
+    }
+
+    else if((item.subwayLine) == "수인분당") {
+      item.iconname = "subway";
+      item.iconcolor="#FABE00"    //노란색
+    }
+
+    else if((item.subwayLine) == "공항철도") {
+      item.iconname = "subway";
+      item.iconcolor="#0090D2"    //바다색
+    }
+
+    else if((item.subwayLine) == "신분당") {
+      item.iconname = "subway";
+      item.iconcolor="#D31145"    //빨간색
+    }
+
+    else if((item.subwayLine) == "경춘선") {
+      item.iconname = "subway";
+      item.iconcolor="#178C72"    //청록색
+    }
+
+    else if((item.subwayLine) == "우이신설") {
+      item.iconname = "subway";
+      item.iconcolor="#B7C450"    //라임색
+    }
 
 
     // switch(item.subwayLine)
